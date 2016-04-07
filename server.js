@@ -5,7 +5,7 @@ const app = express();
 const http = require('http').Server(app);
 const fs = require('fs');
 const redis = require('redis');
-const Twitter = require('twiiter');
+const Twitter = require('twitter');
 const io = require('socket.io')(http);
 const port = process.env.PORT || 3000;
 
@@ -17,5 +17,5 @@ app.use((req, res) => {
 });
 
 http.listen(port, () =>
-  console.log('listening on port ' + port);
+  console.log('listening on port ' + port)
 );
