@@ -1,0 +1,20 @@
+{
+  "name": "twitter-tracker",
+  "version": "1.0.0",
+  "description": "Uses socket.io and Redis to render twitter data to a simple frontend.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexwuwei/twitter-tracker.git"
+  },
+  "author": "Hugo A Guerra <guerrahugoa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexwuwei/twitter-tracker/issues"
+  },
+  "homepage": "https://github.com/alexwuwei/twitter-tracker#readme"
+}
